@@ -58,10 +58,10 @@ nav div {
 	height: 47%;
 	width: 90%;
 	min-width: 75px;
-	border-bottom-left-radius: 25px;
+	border-bottom-left-radius: 50px;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
-	border-bottom-right-radius: 25px;
+	border-bottom-right-radius: 50px;
 	color: white;
 	background-color: #78a1e6;
 }
@@ -103,7 +103,7 @@ nav div {
 
 #eye_img {
 	width: 300px;
-	margin-top: 50px;
+	margin-top: 60px;
 }
 
 .info_text {
@@ -117,12 +117,11 @@ nav div {
 
 
 #footer {
-	height: 40px;
+	height: 30px;
 	width: 97.2%;
 	margin-left: 1%;
-	margin-top: 42%;
 	margin-bottom: 10px;
-	padding: 5px;
+	padding: 10px;
 	color: white;
 	background-color: #c3d9ff;
 	border-bottom-right-radius: 10px;
@@ -132,12 +131,14 @@ nav div {
 }
 
 	#left_footer {
-		width: 50%;
+		width: 300px;
+		float: left;
 	}
 
 	#right_footer {
-		width: 50%;
-		float: left;
+		width: 300px;
+		float: right;
+		text-align: right;
 	}
 
 #footer a a:hover a:visited {
