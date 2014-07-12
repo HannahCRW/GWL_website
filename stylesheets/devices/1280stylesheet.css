@@ -14,7 +14,7 @@ nav {
 	padding:0;
 	width: 98%;
 	color: white;
-	height: 120px;
+	height: 115px;
 	background-color: #c3d9ff;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
@@ -82,14 +82,64 @@ nav div {
 }
 
 #top_text {
-	background-color: #c3d9ff;
-	float: left;
-	width: 98%;
-	height: 500px;
-	margin-left: 1%;
+	width: 75%;
+	margin-left: 13%;
 	margin-top: 5px;
+	margin-bottom: 25px;
+	display: inline-block;
+	font-family: 'Michroma', sans-serif;
 }
 
-#top_text a {
+#top_text a a:hover a:visited {
+	color: #78a1e6;
+}
+
+#eye_img_div {
+	width: 30%;
+	margin: 0;
+	float: left;
+	display: inline-block;
+}
+
+#eye_img {
+	width: 300px;
+	margin-top: 50px;
+}
+
+.info_text {
+	margin-top: 25px;
+	width: 65%;
+	font-size: 24px;
+	line-height: 170%;
+	float: left;
+	display: inline-block;
+}
+
+
+#footer {
+	height: 40px;
+	width: 97.2%;
+	margin-left: 1%;
+	margin-top: 42%;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: white;
+	background-color: #c3d9ff;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 13px;
+}
+
+	#left_footer {
+		width: 50%;
+	}
+
+	#right_footer {
+		width: 50%;
+		float: left;
+	}
+
+#footer a a:hover a:visited {
 	color: #78a1e6;
 }
