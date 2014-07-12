@@ -90,7 +90,7 @@ nav div {
 #top_text {
 	width: 75%;
 	margin-left: 13%;
-	margin-top: 25px;
+	margin-top: 50px;
 	margin-bottom: 25px;
 	display: inline-block;
 	font-family: 'Michroma', sans-serif;
@@ -118,14 +118,17 @@ nav div {
 }
 
 #services_links {
+	position: absolute;
+	left: 50%;
+	top: 80%;
 	width: 80%;
-	margin-left: 10%;
+	margin-left: -40%;
+	height: 300px;
 }
 
 .link_holder {
 	width: 300px;
-	height: 300px;
-	margin-left: 3%
+	padding-left: 2.2%;
 	padding-top: 20px;
 	float: left;
 }
@@ -151,12 +154,12 @@ nav div {
 
 .link_text {
 	color: #020532;
-	font-family: 'PT Sans Caption', sans-serif;
-	font-size: 22px;
+	font-family: 'Michroma', sans-serif;
+	font-size: 24px;
+	width: 280px;
 	text-align: center;
-	line-height: 200%;
+	line-height: 175%;
 }
-
 
 #market_access_img {
 	width: 85%;
@@ -164,7 +167,7 @@ nav div {
 
 #brand_excellence_img {
 	width: 65%;
-	border-radius: 10px;
+	border-radius: 15px;
 	margin-top: 10%;
 }
 
