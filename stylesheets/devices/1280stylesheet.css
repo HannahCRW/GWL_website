@@ -45,7 +45,7 @@ nav div {
 
 #nav_buttons div {
 	height: 150%;
-	width: 18%;
+	width: 22.5%;
 	padding: 5px;
 }
 
@@ -90,7 +90,7 @@ nav div {
 #top_text {
 	width: 75%;
 	margin-left: 13%;
-	margin-top: 15px;
+	margin-top: 25px;
 	margin-bottom: 25px;
 	display: inline-block;
 	font-family: 'Michroma', sans-serif;
@@ -123,11 +123,14 @@ nav div {
 }
 
 .link_holder {
-	width: 25%;
-	height: 325px;
+	width: 28%;
+	margin-left: 5%;
 	padding-top: 15px;
 	float: left;
+    display: inline-block;
+    position: relative;
 }
+
 	.link_holder:hover {
 		font-weight: bolder;
 	}
@@ -135,8 +138,7 @@ nav div {
 .link_img {
 	background-color: rgba(120,161,230,0.5);
 	-webkit-transition: background 2s;
-	border-radius: 150px;
-	height: 74%;
+	border-radius: 200px;
 	padding-top: 20px;
 	text-align: center;
 }
@@ -149,8 +151,9 @@ nav div {
 .link_text {
 	color: #020532;
 	font-family: 'PT Sans Caption', sans-serif;
-	font-size: 20px;
+	font-size: 22px;
 	text-align: center;
+	line-height: 200%;
 }
 
 
@@ -158,10 +161,10 @@ nav div {
 	width: 85%;
 }
 
-#business_school_img {
-	width: 60%;
+#brand_excellence_img {
+	width: 65%;
 	border-radius: 10px;
-	margin-top: 32px;
+	margin-top: 10%;
 }
 
 
@@ -183,7 +186,6 @@ nav div {
 #footer div {
 	width: 30%;
 }
-
 	#left_footer {
 		float: left;
 	}
