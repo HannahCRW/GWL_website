@@ -123,12 +123,11 @@ nav div {
 }
 
 .link_holder {
-	width: 28%;
-	margin-left: 5%;
-	padding-top: 15px;
+	width: 300px;
+	height: 300px;
+	margin-left: 3%
+	padding-top: 20px;
 	float: left;
-    display: inline-block;
-    position: relative;
 }
 
 	.link_holder:hover {
@@ -136,6 +135,8 @@ nav div {
 	}
 
 .link_img {
+	width: 275px;
+	height: 255px;
 	background-color: rgba(120,161,230,0.5);
 	-webkit-transition: background 2s;
 	border-radius: 200px;
@@ -170,8 +171,8 @@ nav div {
 
 #footer {
 	height: 30px;
-	width: 96.5%;
 	margin-left: 1%;
+	margin-right: 1%;
 	margin-bottom: 10px;
 	padding: 10px;
 	color: white;
