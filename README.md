@@ -1,0 +1,1 @@
+Creating an alternative website for a terrible one I saw today.

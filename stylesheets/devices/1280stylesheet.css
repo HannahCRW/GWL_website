@@ -3,8 +3,6 @@
 
 body {
 	margin: 0;
-	padding:0;
-	height: 1000%;
 	color: #020532;
 }
 
@@ -64,9 +62,14 @@ nav div {
 	border-bottom-right-radius: 50px;
 	color: white;
 	background-color: #78a1e6;
+	-webkit-transition: background 1s;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 15px;
+	text-align: center;
 }
 	#nav_buttons button:hover {
 		background-color: #020532;
+		-webkit-transition: background 0.5s;
 	}
 
 	#nav_buttons button:active {
@@ -75,6 +78,7 @@ nav div {
 
 #colour_bar {
 	margin-top: 5px;
+	margin-bottom: 5px;
 	height: 10px;
 	width: 98%;
 	margin-left: 1%;
@@ -84,7 +88,7 @@ nav div {
 #top_text {
 	width: 75%;
 	margin-left: 13%;
-	margin-top: 5px;
+	margin-top: 15px;
 	margin-bottom: 25px;
 	display: inline-block;
 	font-family: 'Michroma', sans-serif;
@@ -115,10 +119,51 @@ nav div {
 	display: inline-block;
 }
 
+#services_links {
+	width: 80%;
+	margin-left: 10%;
+}
+
+.link_holder {
+	width: 25%;
+	height: 325px;
+	padding-top: 15px;
+	float: left;
+}
+	.link_holder:hover {
+		font-weight: bolder;
+	}
+
+.link_img {
+	background-color: rgba(120,161,230,0.5);
+	-webkit-transition: background 2s;
+	border-radius: 150px;
+	height: 74%;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.link_img:hover {
+	background-color: rgba(120,161,230,1);
+	-webkit-transition: background 1s;
+}
+
+.link_text {
+	color: #020532;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+#market_access_img {
+	width: 85%;
+}
+
 
 #footer {
 	height: 30px;
-	width: 97.2%;
+	width: 96.5%;
 	margin-left: 1%;
 	margin-bottom: 10px;
 	padding: 10px;
@@ -128,6 +173,7 @@ nav div {
 	border-bottom-left-radius: 10px;
 	font-family: 'PT Sans Caption', sans-serif;
 	font-size: 13px;
+	line-height: 225%;
 }
 
 	#left_footer {
