@@ -51,15 +51,17 @@ nav div {
 
 #nav_buttons button {
 	border-color: none;
+	border: none;
+	box-shadow: none;
 	margin-top: 7px;
 	margin-left: 12%;
 	height: 47%;
 	width: 90%;
 	min-width: 75px;
-	border-bottom-left-radius: 50px;
+	border-bottom-left-radius: 30px;
 	border-top-right-radius: 5px;
 	border-top-left-radius: 5px;
-	border-bottom-right-radius: 50px;
+	border-bottom-right-radius: 30px;
 	color: white;
 	background-color: #78a1e6;
 	-webkit-transition: background 1s;
@@ -92,10 +94,6 @@ nav div {
 	margin-bottom: 25px;
 	display: inline-block;
 	font-family: 'Michroma', sans-serif;
-}
-
-#top_text a a:hover a:visited {
-	color: #78a1e6;
 }
 
 #eye_img_div {
@@ -160,6 +158,12 @@ nav div {
 	width: 85%;
 }
 
+#business_school_img {
+	width: 60%;
+	border-radius: 10px;
+	margin-top: 32px;
+}
+
 
 #footer {
 	height: 30px;
@@ -176,17 +180,25 @@ nav div {
 	line-height: 225%;
 }
 
+#footer div {
+	width: 30%;
+}
+
 	#left_footer {
-		width: 300px;
 		float: left;
 	}
 
+	#center_footer {
+		margin-left: 5%;
+		float: left;
+		text-align: center;
+	}
+
 	#right_footer {
-		width: 300px;
 		float: right;
 		text-align: right;
 	}
 
-#footer a a:hover a:visited {
+a a:hover a:visited {
 	color: #78a1e6;
 }
