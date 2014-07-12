@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+	height: 1000%;
+	background-color: #b6caf9;
+	color: #020532;
+}
+
+nav {
+	margin:0;
+	width: 100%;
+	background-color: #b6caf9;
+	color: white;
+}
+
+.home_logo {
+	width: 550px;
+}
+
+nav div {
+	text-align: center;
+	width: 10%;
+	float: left;
+	height: 50px;
+}
+
+#top_text {
+	float: left;
+	width: 80%;
+	height: 500px;
+	margin-left: 10%;
+	margin-top: 100px;
+}
+
+#top_text a {
+	color: #78a1e6;
+}
