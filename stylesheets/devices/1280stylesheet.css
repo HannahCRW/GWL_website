@@ -1,0 +1,95 @@
+/*1280x1024*/
+
+
+body {
+	margin: 0;
+	padding:0;
+	height: 1000%;
+	color: #020532;
+}
+
+nav {
+	margin-left:1%;
+	margin-top: 10px;
+	padding:0;
+	width: 98%;
+	color: white;
+	height: 120px;
+	background-color: #c3d9ff;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.home_logo {
+	margin-top: 5px;
+	width: 40%;
+
+}
+
+#home_logo_img {
+	width: 100%;
+}
+
+nav div {
+	text-align: center;
+	width: 11%;
+	float: left;
+	height: 100%;
+	padding: 0;
+}
+
+#nav_buttons {
+	height: 100px;
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+#nav_buttons div {
+	height: 150%;
+	width: 18%;
+	padding: 5px;
+}
+
+#nav_buttons button {
+	border-color: none;
+	margin-top: 7px;
+	margin-left: 12%;
+	height: 47%;
+	width: 90%;
+	min-width: 75px;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-bottom-right-radius: 25px;
+	color: white;
+	background-color: #78a1e6;
+}
+	#nav_buttons button:hover {
+		background-color: #020532;
+	}
+
+	#nav_buttons button:active {
+		background-color: #020532;
+	}
+
+#colour_bar {
+	margin-top: 5px;
+	height: 10px;
+	width: 98%;
+	margin-left: 1%;
+	background-color: #020532;
+}
+
+#top_text {
+	background-color: #c3d9ff;
+	float: left;
+	width: 98%;
+	height: 500px;
+	margin-left: 1%;
+	margin-top: 5px;
+}
+
+#top_text a {
+	color: #78a1e6;
+}
